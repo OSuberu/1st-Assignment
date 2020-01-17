@@ -1,0 +1,27 @@
+Question 1.
+
+SELECT *
+FROM SalesLT.Customer;
+
+
+Question 2.
+
+SELECT FIRSTNAME, MIDDLENAME, LASTNAME, EMAILADDRESS, PHONE
+FROM SalesLT.Customer;
+
+
+Question 3
+
+SELECT Productnumber, color, size, weight, sellstartdate, listprice - standardcost as profit
+FROM SalesLT.Product
+
+question 4
+
+SELECT Productnumber, color, size, weight, sellstartdate, listprice - standardcost as profit, sellenddate
+FROM SalesLT.Product
+
+
+question 5.
+
+SELECT ProductID, SalesorderID, Unitprice, Unitpricediscount, linetotal
+FROM SalesLT.SalesOrderDetail
